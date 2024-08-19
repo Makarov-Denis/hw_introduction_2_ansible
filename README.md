@@ -23,6 +23,7 @@
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 
 docker run -dit --name centos7 pycontribs/centos:7 sleep 6000000
+
 docker run -dit --name ubuntu pycontribs/ubuntu:latest sleep 6000000
 
 4. Проведите запуск playbook на окружении из `prod.yml`. Зафиксируйте полученные значения `some_fact` для каждого из `managed host`.
